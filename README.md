@@ -1,4 +1,4 @@
-adsb-clock
-==========
+clock
+=====
 
 ADSB Clock Assignment.

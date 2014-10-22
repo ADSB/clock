@@ -52,7 +52,7 @@ public class Clock {
 	/**
 	 * Set clock minute.
 	 *
-	 * minutes clock minute
+	 * @param minutes clock minute
 	 */
 	public void setMinutes(int minutes) {
 		_minutes = minutes;
@@ -61,8 +61,8 @@ public class Clock {
 	/**
 	 * Set clock time.
 	 *
-	 * hours clock hour
-	 * minutes clock minute
+	 * @param hours clock hour
+	 * @param minutes clock minute
 	 */
 	public void setTime(int hours, int minutes) {
 		_hours = hours;

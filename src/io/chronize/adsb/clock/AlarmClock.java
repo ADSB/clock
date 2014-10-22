@@ -103,5 +103,11 @@ public class AlarmClock extends Clock {
 		return String.format("Time=%s, Alarm=" + TIME_FORMAT, super.toString(), _wakeUpHours, _wakeUpMinutes);
 	}
 
+	@Override
+	public boolean equals(Object o) {
+		AlarmClock other = (AlarmClock)(o);
+		return super.equals(o) && other.getWakeUpHours() == _wakeUpHours && other.getMinutes() == _wakeUpMinutes;
+	}
+
 
 }
