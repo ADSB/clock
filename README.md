@@ -1,0 +1,4 @@
+clock
+=====
+
+ADSB Clock Assignment.
